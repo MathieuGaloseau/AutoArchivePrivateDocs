@@ -1,0 +1,15 @@
+[2018/08/03 14:53] [Archive] Cannot process argument transformation on parameter 'folder'. Cannot convert value to type System.String.
+[2018/08/03 15:00] [Archive] Cannot process argument transformation on parameter 'folder'. Cannot convert value to type System.String.
+[2018/08/03 15:02] [Archive] Cannot process argument transformation on parameter 'folder'. Cannot convert value to type System.String.
+[2018/08/03 15:03] [Archive] Cannot process argument transformation on parameter 'folder'. Cannot convert value to type System.String.
+[2018/08/03 15:04] [Archive] Cannot process argument transformation on parameter 'folder'. Cannot convert value to type System.String.
+[2018/08/03 15:04] [Archive] A positional parameter cannot be found that accepts argument 'Archive'.
+[2018/08/03 15:05] [Archive] The term '7z' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+[2018/08/03 15:05] [Archive] The term '7z' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+[2018/08/03 15:19] [Archive] Cannot bind argument to parameter 'folder' because it is an empty string.
+[2018/08/03 15:19] [Archive] Cannot bind argument to parameter 'folder' because it is an empty string.
+[2018/08/03 16:04] [Archive] Cannot validate argument on parameter 'FolderPath'. The "Test-Path -Path $_ -PathType Container" validation script for the argument with value "C:\istep\AutoArchivePrivateDocs\testArchive\.7z" did not return a result of True. Determine why the validation script failed, and then try the command again.
+[2018/08/03 16:04] [Archive] Cannot validate argument on parameter 'FolderPath'. The "Test-Path -Path $_ -PathType Container" validation script for the argument with value "C:\istep\AutoArchivePrivateDocs\testArchive\.7z\.7z" did not return a result of True. Determine why the validation script failed, and then try the command again.
+[2018/08/03 16:05] [Archive] Cannot validate argument on parameter 'FolderPath'. The "Test-Path -Path $_ -PathType Container" validation script for the argument with value "C:\istep\AutoArchivePrivateDocs\testArchive\exportCSV.7z" did not return a result of True. Determine why the validation script failed, and then try the command again.
+[2018/08/03 16:05] [Archive] Cannot validate argument on parameter 'FolderPath'. The "Test-Path -Path $_ -PathType Container" validation script for the argument with value "C:\istep\AutoArchivePrivateDocs\testArchive\exportCSV.7z\exportCSV test.7z" did not return a result of True. Determine why the validation script failed, and then try the command again.
+[2018/08/03 16:30] [Archive] A positional parameter cannot be found that accepts argument 'test'.
