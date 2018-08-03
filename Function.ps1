@@ -2,6 +2,7 @@
 #
 #	Function.ps1
 #	Date : 2018.08.03
+#   Author : Galoseau Mathieu
 #	V0.01 Add function WriteLog
 #   V0.02 Add Archive
 #   V0.03 Add Encrypt
