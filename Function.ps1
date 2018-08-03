@@ -31,7 +31,7 @@ Function WriteLog(
 
         $path = $logfolder + (Get-Date).ToString("yyyyMMdd")+"_$($app).log"
 
-        if ((Test-Path $logfolder) -eq $false)
+        if ((Test-Path -LiteralPath $logfolder) -eq $false)
         {
             New-Item -ItemType directory -Path $logfolder
         }
@@ -54,7 +54,7 @@ Function Archive(
     [Parameter(Mandatory = $false)][string] $app = "Archive"
 ) {
     try{
-        if (test-path "$env:ProgramFiles\7-Zip\7z.exe")
+        if (test-path -LiteralPath "$env:ProgramFiles\7-Zip\7z.exe")
         {
             #a (Add)
             #-m	Set Compression Method
